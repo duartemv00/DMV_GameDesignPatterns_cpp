@@ -2,13 +2,22 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Run BytecodePatternTest",
+            "name": "Run BytecodePattern",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/x64/Debug/BytecodePatternTest.exe",
-            "cwd": "${workspaceFolder}",
+            "program": "${workspaceFolder}/BytecodePattern/main.exe",
+            "cwd": "${workspaceFolder}/BytecodePattern",
             "console": "integratedTerminal",
-            "preLaunchTask": "Build BytecodePatternTest"
+            "preLaunchTask": "Build BytecodePattern"
+        },
+        {
+            "name": "Run CommandPattern",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/CommandPattern/main.exe",
+            "cwd": "${workspaceFolder}/CommandPattern",
+            "console": "integratedTerminal",
+            "preLaunchTask": "Build CommandPattern"
         }
     ]
 }
